@@ -1,0 +1,7 @@
+.env
+adil.txt
+__pycache__/
+*.pyc
+report.xlsx
+.venv/
+venv/
