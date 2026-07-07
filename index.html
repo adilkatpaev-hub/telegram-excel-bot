@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Telegram Excel Bot</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #172026;
+      background: #f4f7f8;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: 34px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 24px;
+      background: #ffffff;
+    }
+    th,
+    td {
+      padding: 12px;
+      border: 1px solid #d8e0e3;
+      text-align: left;
+    }
+    th {
+      background: #e9f0f2;
+    }
+    code {
+      padding: 2px 6px;
+      background: #e9f0f2;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Telegram Excel Bot</h1>
+    <p>
+      Проект для сбора отчетов через Telegram-бота и автоматической записи данных
+      в Excel-файл <code>report.xlsx</code>.
+    </p>
+
+    <h2>Поля отчета</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Фамилия</th>
+          <th>Дата</th>
+          <th>Наименование устройства или адреса</th>
+          <th>Проделанная работа</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Иванов</td>
+          <td>07.07.2026</td>
+          <td>ул. Абая 15</td>
+          <td>Проверил оборудование, заменил кабель</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Запуск</h2>
+    <p>
+      Для локального запуска создайте файл <code>.env</code> с переменной
+      <code>BOT_TOKEN</code>, выполните <code>install.bat</code>, затем запустите
+      <code>start_bot.bat</code>.
+    </p>
+  </main>
+</body>
+</html>
